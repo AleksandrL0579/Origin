@@ -8,3 +8,10 @@ const first = {
     id: 1,
     author: 'Sasha',
 };
+
+
+function a() {
+    console.log('Sasha')
+}
+console.log('Start')
+setTimeout(a, 2000)
